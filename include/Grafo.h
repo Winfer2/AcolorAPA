@@ -3,7 +3,10 @@
 
 #include <iostream>
 #include <list>
+#include <vector>
 #include <algorithm> // função find
+
+#include "aresta.h"
 
 using namespace std;
 
@@ -12,7 +15,8 @@ class Grafo
 private:
 	int V; // número de vértices
 	list<int> *adj; // ponteiro para um array contendo as listas de adjacências
-	list<int> *aresta; //ponteiro para um array contendo as cores das arestas
+	vector<aresta> arest; //ponteiro para um array contendo as cores das arestas
+	int idAresta; //
 
 public:
 	Grafo(int V); // construtor

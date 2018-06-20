@@ -5,12 +5,16 @@ Grafo::Grafo(int V)
 {
 	this->V = V; // atribui o número de vértices
 	adj = new list<int>[V]; // cria as listas
+	this->idAresta = 0;
 }
 
 void Grafo::adicionarAresta(int v1, int v2)
 {
 	// adiciona vértice v2 à lista de vértices adjacentes de v1
 	adj[v1].push_back(v2);
+	aresta *aux = new aresta(v1,v2,this->idAresta);
+	arest.push_back(*aux);
+	this->idAresta++;
 }
 
 int Grafo::obterGrauDeSaida(int v)
