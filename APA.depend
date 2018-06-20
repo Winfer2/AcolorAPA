@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1529522916 source:/ice/APA/main.cpp
+	<iostream>
+	<list>
+	<algorithm>
+	"Grafo.h"
+
+1529523297 /ice/APA/include/Grafo.h
+	<iostream>
+	<list>
+	<algorithm>
+
