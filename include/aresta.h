@@ -15,7 +15,7 @@ class aresta
     protected:
 
     private:
-        int cor;
+        int cor = 0;
         int no1,no2; //nos conectados
         int id; //indice da aresta
 };
