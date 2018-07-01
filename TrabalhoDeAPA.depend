@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1529539551 source:c:\users\mattheus\documents\codeblocks stuff\trabalhodeapa\src\aresta.cpp
+	"aresta.h"
+
+1529592313 c:\users\mattheus\documents\codeblocks stuff\trabalhodeapa\include\aresta.h
+
+1530471364 source:c:\users\mattheus\documents\codeblocks stuff\trabalhodeapa\src\grafo.cpp
+	"Grafo.h"
+	<limits.h>
+
+1530471254 c:\users\mattheus\documents\codeblocks stuff\trabalhodeapa\include\grafo.h
+	<iostream>
+	<list>
+	<vector>
+	<algorithm>
+	"aresta.h"
+
+1530471520 source:c:\users\mattheus\documents\codeblocks stuff\trabalhodeapa\main.cpp
+	<iostream>
+	"include/Grafo.h"
+	"include/leitor.h"
+	<ctime>
+
+1529711266 source:c:\users\mattheus\documents\codeblocks stuff\trabalhodeapa\src\leitor.cpp
+	"leitor.h"
+	<stdlib.h>
+	<stdio.h>
+	<fstream>
+	<string>
+	<iostream>
+
+1529710859 c:\users\mattheus\documents\codeblocks stuff\trabalhodeapa\include\leitor.h
+	<string>
+	<fstream>
+	<vector>
+	<map>
+

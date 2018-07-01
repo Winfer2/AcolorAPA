@@ -32,7 +32,7 @@ private:
 public:
     void colorirArestas();
     void imprimirCores();
-
+    void maiorCor();
 	Grafo(int V); // construtor
 	void adicionarAresta(int v1, int v2); // adiciona uma aresta no grafo
 

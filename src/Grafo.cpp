@@ -105,3 +105,14 @@ void Grafo::imprimirCores(){
         cout << "No1: " << arest[i].getNo1()<< " - No2: " << arest[i].getNo2()<< " - Cor: " << arest[i].getCor() <<endl;
     }
 }
+
+void Grafo::maiorCor(){
+    int aux=0;
+    for(int i = 0; i < this->arest.size();i++){
+        if(arest[i].getCor()>aux){
+            aux = arest[i].getCor();
+        }
+    }
+    aux++;
+    cout <<"Total de cores utilizadas: "<<aux<<endl;
+}

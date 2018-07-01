@@ -1,6 +1,7 @@
 #include <iostream>
 #include "include/Grafo.h"
 #include "include/leitor.h"
+#include <ctime>
 
 using namespace std;
 
@@ -13,6 +14,8 @@ int main()
     cout<<"Insira o nome do arquivo:";
     cin>>arquivo;
 
+    int start_s=clock();
+
     leitor *l = new leitor(arquivo);
 
 
@@ -23,6 +26,12 @@ int main()
 
 	grafo.colorirArestas();
     grafo.imprimirCores();
+    grafo.maiorCor();
+
+    int stop_s=clock();
+    cout << "time: " << (stop_s-start_s)/double(CLOCKS_PER_SEC) << endl;
+
+
 
 	return 0;
 }
