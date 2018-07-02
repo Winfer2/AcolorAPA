@@ -35,3 +35,39 @@
 	<vector>
 	<map>
 
+1530491425 source:c:\users\rodrigo\desktop\sat4j-core-v20130525\acolorapa-master\main.cpp
+	<iostream>
+	"include/Grafo.h"
+	"include/leitor.h"
+	<ctime>
+
+1530458128 c:\users\rodrigo\desktop\sat4j-core-v20130525\acolorapa-master\include\grafo.h
+	<iostream>
+	<list>
+	<vector>
+	<algorithm>
+	"aresta.h"
+
+1530458128 c:\users\rodrigo\desktop\sat4j-core-v20130525\acolorapa-master\include\aresta.h
+
+1530458128 c:\users\rodrigo\desktop\sat4j-core-v20130525\acolorapa-master\include\leitor.h
+	<string>
+	<fstream>
+	<vector>
+	<map>
+
+1530458128 source:c:\users\rodrigo\desktop\sat4j-core-v20130525\acolorapa-master\src\aresta.cpp
+	"aresta.h"
+
+1530491078 source:c:\users\rodrigo\desktop\sat4j-core-v20130525\acolorapa-master\src\grafo.cpp
+	"Grafo.h"
+	<limits.h>
+
+1530487428 source:c:\users\rodrigo\desktop\sat4j-core-v20130525\acolorapa-master\src\leitor.cpp
+	"leitor.h"
+	<stdlib.h>
+	<stdio.h>
+	<fstream>
+	<string>
+	<iostream>
+

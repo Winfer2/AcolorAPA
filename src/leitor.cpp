@@ -1,3 +1,6 @@
+//Deborah Conde 201465629AC
+//Matheus Soares Santos 201465580C
+//Rodrigo Coelho Vila Verde 201565567AC 
 #include "leitor.h"
 #include <stdlib.h>
 #include <stdio.h>
@@ -10,7 +13,7 @@ leitor::leitor(string path){
 
     string line;
 
-    file.open(path);
+    file.open(path.c_str());
 
     if(file.is_open()){
 
